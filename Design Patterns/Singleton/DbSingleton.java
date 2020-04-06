@@ -4,7 +4,7 @@ public class DbSingleton {
 
   private DbSingleton(){
     if(instance!=null){
-      throw new RuntineException("Use getInstance() method to create");
+      throw new RuntimeException("Use getInstance() method to create");
     }
   }
 
